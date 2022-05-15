@@ -93,7 +93,7 @@ Place your hand card face up in the talon in the same position that the talon ca
 <!-- If your hand card is from your closed hand, then it is placed face down in the talon. If your hand card is from your open hand, then it is placed face up in the talon. In either case, your hand card is placed in the same position in the talon that the talon card occupied before the trade. -->
 
 After you have completed the draft, you will begin the next exchange.
-Whoever won the current exchange will lead the first trick in the next exchange.
+Whoever won the previous exchange will lead the first trick in the next exchange.
 
 #### Example
 test
