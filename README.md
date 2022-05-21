@@ -72,7 +72,7 @@ The following table describes how the stakes change as a function of the total n
 
 ### Redistributing Cards
 After each each exchange, you will redistribute the cards that were played during that exchange via a draft. You will take turns choosing cards, one at a time, until all of the cards have been drafted.
-whoever lost the previous exchange will go first.
+Whoever lost the previous exchange will go first.
 
 When you draft a card, add it to your open hand.
 
