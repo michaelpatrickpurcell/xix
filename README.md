@@ -26,7 +26,7 @@ At the end of each exchange, points will be awarded to the player who won the ex
 
 After each exchange, you will check to see if the game ends.
 
-If the game did not end, you will redistribute the cards that were played during the previous exchange via a draft. Then, you will play another exchange as described above.
+If not, you will redistribute the cards that were played during the previous exchange via a draft. Then, you will play another exchange.
 
 You win if you have more points than your opponent when the game ends.
 
@@ -60,7 +60,9 @@ If you receive your third strike in an exchange, you cannot raise the stakes. Yo
 If you lose an exchange, points will be awarded to your opponent.
 
 ### Scoring
-The number of points awarded depends on the total number of strikes that have been received during the exchange.
+The number of points awarded depends on the current stakes for the exchange.  Recall that every time a player receives a strike, they must either abandon the exchange or raise the stakes. So, the current stakes depend on the total number of strikes that have been received (by both players) during the exchange.
+
+The following table describes what the stakes in an exchange will be for each possible number of strikes that have been received in that exchange.
 
 | Strikes | Points |
 |---------|--------|
@@ -74,12 +76,12 @@ The number of points awarded depends on the total number of strikes that have be
 test
 
 ### Drafting
-After each each exchange, you will redistribute the cards that were played during the previous exchange via a draft. You will take turns choosing cards, one at a time, until all of the cards have been drafted.
+After each each exchange, you will redistribute the cards that were played during that exchange via a draft. You will take turns choosing cards, one at a time, until all of the cards have been drafted.
 If you lost the previous exchange then you will go first.
 
 When you draft a card, add it to your open hand. Once a card has been played during the game, it will remain face up for the remainder of the game.
 
-After the draft, the player who lost the previous exchange must trade a card from one of your hands (your _hand card_) for a card in the strike row (the _strike card_).
+After the draft, if you lost the previous exchange then you must trade a card from one of your hands (your _hand card_) for a card in the strike row (the _strike card_).
 
 Add the strike card to your one of your hands. If the strike card is face down, add it to your closed hand. Otherwise, add it to your open hand.
 
@@ -94,7 +96,7 @@ test
 ### Ending the Game
 After each exchange, you will check to see if the game ends. If all of the cards in the strike row are face up and either player's closed hand is empty, the game ends immediately.
 
-## Helpful Hints
+<!-- ## Helpful Hints
 During the game, the face value of some cards, e.g. cards in the players' open hands and cards that are placed face up on the table, will be known to both players while others. These cards are _public_ cards. Other cards,  e.g. cards in the players' closed hands and cards that are placed face down on the table, are unknown to at least one player. These cards are _private_ cards.
 
-At the beginning of the cards, all of the cards are private cards.  As you play, some of the cards will become public cards.  
+At the beginning of the game, all of the cards are private cards.  As you play, some of the cards will become public cards.  Once a card has become a public card, it will remain a public card for the rest of the game. -->
