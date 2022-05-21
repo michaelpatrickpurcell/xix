@@ -3,7 +3,7 @@ An 18-card strategy game for two players.
 XIX is intended for players who are at least eight years old.
 
 ## Overview
-Test
+$\sum_{i=1}^n i = \frac{n(n+1)}{2}$
 
 ## Components
   - **Numbered Cards** (18): One card for each whole number between one and eighteen.
