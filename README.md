@@ -46,9 +46,6 @@ You should randomly determine which player will _lead_ the first trick (i.e. pla
 
 If the face values of the two cards played in a trick add up to nineteen, then the second player takes the trick. Otherwise, whoever played the card with the higher face value takes the trick.
 
-#### Example
-Test
-
 ### Strikes
 If you lose a trick then you receive a _strike_. You must choose a card from the strike row and slide it towards you. If the card you choose is face down, you may _peek_ at its face value.
 
@@ -59,9 +56,6 @@ After you receive a strike you must do one of the following:
 If you receive your third strike in an exchange, you cannot raise the stakes. You must abandon the exchange.
 
 If you lose an exchange, points will be awarded to your opponent.
-
-####  Example
-Test
 
 ### Scoring
 The number of points awarded depends on the current stakes for the exchange.  Recall that every time a player receives a strike, they must either abandon the exchange or raise the stakes. So, the current stakes depend on the total number of strikes that have been received (by both players) during the exchange.
@@ -76,9 +70,6 @@ The following table describes how the stakes change as a function of the total n
 | 4 | 10 |
 | 5 | 15 |
 
-#### Example
-test
-
 ### Redistributing Cards
 After each each exchange, you will redistribute the cards that were played during that exchange via a draft. You will take turns choosing cards, one at a time, until all of the cards have been drafted.
 If you lost the previous exchange then you will go first.
@@ -90,9 +81,6 @@ After the draft, if you lost the previous exchange then you must trade a card fr
 Add the strike card to your one of your hands. If the strike card is face down, add it to your closed hand. Otherwise, add it to your open hand.
 
 Place your hand card in the strike row. If your hand card is in your closed hand, then place it face down. If your hand card is in your open hand, then place it face up.
-
-#### Example
-test
 
 ### Ending the Game
 After each exchange, you will check to see if the game ends. If all of the cards in the strike row are face up and either player's closed hand is empty, the game ends immediately.
