@@ -87,9 +87,6 @@ Add the strike card to your one of your hands. If the strike card is face down, 
 
 Place your hand card in the strike row. If your hand card is in your closed hand, then place it face down. If your hand card is in your open hand, then place it face up.
 
-Next, you will play another exchange.
-Whoever lost the previous exchange will lead the first trick in the next exchange.
-
 #### Example
 test
 
