@@ -83,7 +83,7 @@ After the draft, the player who lost the previous exchange must trade a card fro
 
 Add the strike card to your one of your hands. If the strike card is face down, add it to your closed hand. Otherwise, add it to your open hand.
 
-Place your hand card in the strike row. If your hand card is in your closed hand, then place it face down. If your hand card is from your open hand, then place it face up.
+Place your hand card in the strike row. If your hand card is in your closed hand, then place it face down. If your hand card is in your open hand, then place it face up.
 
 After you have completed the draft, you will play another exchange.
 Whoever lost the previous exchange will lead the first trick in the next exchange.
@@ -93,3 +93,8 @@ test
 
 ### Ending the Game
 After each exchange, you will check to see if the game ends. If all of the cards in the strike row are face up and either player's closed hand is empty, the game ends immediately.
+
+## Helpful Hints
+During the game, the face value of some cards, e.g. cards in the players' open hands and cards that are placed face up on the table, will be known to both players while others. These cards are _public_ cards. Other cards,  e.g. cards in the players' closed hands and cards that are placed face down on the table, are unknown to at least one player. These cards are _private_ cards.
+
+At the beginning of the cards, all of the cards are private cards.  As you play, some of the cards will become public cards.  
