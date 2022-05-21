@@ -60,7 +60,7 @@ If you lose an exchange, points will be awarded to your opponent.
 ### Scoring
 The number of points awarded depends on the current stakes for the exchange.  Recall that every time a player receives a strike, they must either abandon the exchange or raise the stakes. So, the current stakes depend on the total number of strikes that have been received (by both players) during the exchange.
 
-The following table describes how the stakes change as a function of the total numer of strikes received in that exchange.
+The following table describes how the stakes change as a function of the total number of strikes received in that exchange.
 
 | Strikes | Stakes|
 |---------|--------|
