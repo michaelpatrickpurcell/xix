@@ -62,7 +62,7 @@ The number of points awarded depends on the current stakes for the exchange.  Re
 
 The following table describes how the stakes change as a function of the total numer of strikes received in that exchange.
 
-| Strikes | Points |
+| Strikes | Stakes|
 |---------|--------|
 | 1 | 1 |
 | 2 | 3 |
