@@ -47,7 +47,7 @@ You should randomly determine which player will _lead_ the first trick (i.e. pla
 If the face values of the two cards played in a trick add up to nineteen, then the second player takes the trick. Otherwise, whoever played the card with the higher face value takes the trick.
 
 ### Strikes
-If you lose a trick then you receive a _strike_. Choose a card from the strike row and slide it towards you. If the card you choose is face down, you may _peek_ at its face value.
+If you lose a trick then you receive a _strike_. You must choose a card from the strike row and slide it towards you. If the card you choose is face down, you may _peek_ at its face value.
 
 After you receive a strike you must do one of the following:
   - **Abandon the Exchange**: You lose the current exchange. Points will be awarded to your opponent.
@@ -60,7 +60,7 @@ If you lose an exchange, points will be awarded to your opponent.
 ### Scoring
 The number of points awarded depends on the current stakes for the exchange.  Recall that every time a player receives a strike, they must either abandon the exchange or raise the stakes. So, the current stakes depend on the total number of strikes that have been received (by both players) during the exchange.
 
-The following table describes what the stakes in an exchange will be for each possible number of strikes that have been received in that exchange.
+The following table describes how the stakes change as a function of the total numer of strikes received in that exchange.
 
 | Strikes | Points |
 |---------|--------|
