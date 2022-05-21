@@ -19,7 +19,7 @@ A game of XIX consists of a series of _exchanges_.
 
 Each exchange consists of a series of _tricks_.
 
-You can win an exchange by taking three tricks or by forcing your opponent to abandon the exchange.
+You can win an exchange by _taking_ three tricks or by forcing your opponent to abandon the exchange.
 At the end of each exchange, points will be awarded to the player who won the exchange.
 
 After each exchange, you will check to see if the game ends.
