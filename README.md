@@ -18,7 +18,6 @@ XIX is intended for players who are at least eight years old.
 A game of XIX consists of a series of _exchanges_.
 
 Each exchange consists of a series of _tricks_.
-Both players will play one card in each trick.
 
 You can win an exchange by taking three tricks or by forcing your opponent to abandon the exchange.
 At the end of each exchange, points will be awarded to the player who won the exchange.
@@ -45,7 +44,7 @@ When you play a card, you may play any card from either your closed hand or your
 
 You should randomly determine which player will _lead_ the first trick (i.e. play the first card) of the game. Thereafter, whoever lost the previous trick will lead the next trick.
 
-If the face values of the two cards played in a trick add up to nineteen, then the second player takes the trick. Otherwise, the player who played the card with the highest face value takes the trick.
+If the face values of the two cards played in a trick add up to nineteen, then the second player takes the trick. Otherwise, whoever played the card with the higher face value takes the trick.
 
 ### Strikes
 If you lose a trick then you receive a _strike_. Choose a card from the strike row and slide it towards you. If the card you choose is face down, you may _peek_ at its face value.
