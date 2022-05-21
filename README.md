@@ -79,7 +79,7 @@ test
 After each each exchange, you will redistribute the cards that were played during that exchange via a draft. You will take turns choosing cards, one at a time, until all of the cards have been drafted.
 If you lost the previous exchange then you will go first.
 
-When you draft a card, add it to your open hand. Once a card has been played during the game, it will remain face up for the remainder of the game.
+When you draft a card, add it to your open hand.
 
 After the draft, if you lost the previous exchange then you must trade a card from one of your hands (your _hand card_) for a card in the strike row (the _strike card_).
 
@@ -93,7 +93,8 @@ test
 ### Ending the Game
 After each exchange, you will check to see if the game ends. If all of the cards in the strike row are face up and either player's closed hand is empty, the game ends immediately.
 
-<!-- ## Helpful Hints
-During the game, the face value of some cards, e.g. cards in the players' open hands and cards that are placed face up on the table, will be known to both players while others. These cards are _public_ cards. Other cards,  e.g. cards in the players' closed hands and cards that are placed face down on the table, are unknown to at least one player. These cards are _private_ cards.
+## Helpful Hints
+Once a card has been played during the game, it will remain face up for the remainder of the game.
+<!--During the game, the face value of some cards, e.g. cards in the players' open hands and cards that are placed face up on the table, will be known to both players while others. These cards are _public_ cards. Other cards,  e.g. cards in the players' closed hands and cards that are placed face down on the table, are unknown to at least one player. These cards are _private_ cards.
 
 At the beginning of the game, all of the cards are private cards.  As you play, some of the cards will become public cards.  Once a card has become a public card, it will remain a public card for the rest of the game. -->
