@@ -46,6 +46,9 @@ You should randomly determine which player will _lead_ the first trick (i.e. pla
 
 If the face values of the two cards played in a trick add up to nineteen, then the second player takes the trick. Otherwise, whoever played the card with the higher face value takes the trick.
 
+#### Example
+Test
+
 ### Strikes
 If you lose a trick then you receive a _strike_. You must choose a card from the strike row and slide it towards you. If the card you choose is face down, you may _peek_ at its face value.
 
