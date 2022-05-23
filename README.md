@@ -87,7 +87,7 @@ If your scores add up to nineteen, the game ends immediately. In this case whoev
 
 Otherwise, the game ends if someone's score is nineteen or higher. In this case, whoever has the higher score wins.
 
-## Helpful Hints
-  - It may be helpful to slide a card from the strike row towards you when you take a strike. This will help you remember how many strikes have been received in the current exchange.
+## Tips and Tricks
+  - Slide a card from the strike row towards you when you take a strike. This will help you remember how many strikes have been received in the current exchange.
 
   - Once a card has been played during the game, it will remain face up for the remainder of the game.
