@@ -24,9 +24,9 @@ At the end of each exchange, points will be awarded to whoever won the exchange.
 
 After each exchange, you will check to see if the game ends. The game ends if exactly nineteen total points have been awarded or if either player has earned nineteen or more points.
 
-If the game does not end, you will redistribute the cards that were played during the previous exchange via a draft. Then, you will play another exchange.
-
 If the game ends because nineteen total points have been awarded, you win if you have fewer points than your opponent. If the game ends because either player has earned nineteen or more points, you win if you have more points than your opponent.
+
+If the game does not end, you will redistribute the cards that were played during the previous exchange via a draft. Then, you will play another exchange.
 
 ### Hands
 Throughout the game, you will both manage two hands of cards:
