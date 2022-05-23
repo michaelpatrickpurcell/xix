@@ -20,35 +20,34 @@ A game of XIX consists of a series of _exchanges_.
 Each exchange consists of a series of _tricks_.
 
 You can win an exchange by _taking_ three tricks or by forcing your opponent to abandon the exchange.
-At the end of each exchange, points will be awarded to the player who won the exchange.
+At the end of each exchange, points will be awarded to whoever won the exchange.
 
 After each exchange, you will check to see if the game ends.
 
 If not, you will redistribute the cards that were played during the previous exchange via a draft. Then, you will play another exchange.
 
-You win if you have more points than your opponent when the game ends.
+You win if your scores add up to nineteen and you have the fewer points than your opponent or if you are the first to earn nineteen or more points.
 
 ### Hands
-Throughout the game, both players will mange two hands of cards:
+Throughout the game, you will each mange two hands of cards:
   - **Closed Hand**: These cards are kept secret from your opponent. You should hold these cards so that you can see the faces of the cards but your opponent cannot.
-  - **Open Hand**: These cards are not secret. You should hold these cards so that your opponent can see the faces of the cards.
+  - **Open Hand**: These cards are not secret. You should place these cards face up on the table in front of you.
 
 You will begin the game with six cards in your closed hand and zero cards in your open hand.
 
 When you draft cards, you will add the cards that you draft to your open hand.
 
 ### Tricks
-Both players will play one card in each trick.
+You will both play one card in each trick.
 You play a card by placing it face up in the middle of the table.
 When you play a card, you may play any card from either your closed hand or your open hand.
 
-You should randomly determine which player will _lead_ the first trick (i.e. play the first card) of the game. Thereafter, whoever lost the previous trick will lead the next trick.
+You should randomly determine which player will _lead_ the first trick (i.e. play the first card) of the game. Thereafter, whoever won the previous trick will lead the next trick.
 
-If the face values of the two cards played in a trick add up to nineteen, then the second player takes the trick. Otherwise, whoever played the card with the higher face value takes the trick.
+If the face values of the two cards played in a trick add up to nineteen, then whoever played the card with the lower face value takes the trick. Otherwise, whoever played the card with the higher face value takes the trick.
 
 ### Strikes
-If you lose a trick then you receive a _strike_. You must choose a card from the strike row and slide it towards you. If the card you choose is face down, you may _peek_ at its face value.
-
+If you lose a trick then you receive a _strike_.
 After you receive a strike you must do one of the following:
   - **Abandon the Exchange**: You lose the current exchange. Points will be awarded to your opponent.
   - **Raise the Stakes**: Keep playing the current exchange. Increase the number of points that will be awarded to whoever wins the current exchange.
@@ -58,17 +57,16 @@ If you receive your third strike in an exchange, you cannot raise the stakes. Yo
 If you lose an exchange, points will be awarded to your opponent.
 
 ### Scoring
-The number of points awarded depends on the current stakes for the exchange.  Recall that every time a player receives a strike, they must either abandon the exchange or raise the stakes. So, the current stakes depend on the total number of strikes that have been received (by both players) during the exchange.
-
-The following table describes how the stakes change as a function of the total number of strikes received in that exchange.
+The number of points awarded to the winner of an exchange depends on the current stakes.  Recall that every time someone receives a strike, they must either abandon the exchange or raise the stakes.
+The following table describes how the stakes change as a function of the total number of strikes that have been received (by both players) in an exchange.
 
 | Strikes | Stakes|
 |---------|--------|
 | 1 | 1 |
-| 2 | 3 |
-| 3 | 6 |
-| 4 | 10 |
-| 5 | 15 |
+| 2 | 2 |
+| 3 | 3 |
+| 4 | 5 |
+| 5 | 8 |
 
 ### Redistributing Cards
 After each each exchange, you will redistribute the cards that were played during that exchange via a draft. You will take turns choosing cards, one at a time, until all of the cards have been drafted.
@@ -83,10 +81,11 @@ Add the strike card to your one of your hands. If the strike card is face down, 
 Place your hand card in the strike row. If your hand card is in your closed hand, then place it face down. If your hand card is in your open hand, then place it face up.
 
 ### Ending the Game
-After each exchange, you will check to see if the game ends. If all of the cards in the strike row are face up and either player's closed hand is empty, the game ends immediately.
+After each exchange, you will check to see if the game ends.
+
+If your scores add up to nineteen, the game ends immediately. In this case whoever has the lower score wins.
+
+Otherwise, the game ends if someone's score is nineteen or higher. In this case, whoever has the higher score wins.
 
 ## Helpful Hints
 Once a card has been played during the game, it will remain face up for the remainder of the game.
-<!--During the game, the face value of some cards, e.g. cards in the players' open hands and cards that are placed face up on the table, will be known to both players while others. These cards are _public_ cards. Other cards,  e.g. cards in the players' closed hands and cards that are placed face down on the table, are unknown to at least one player. These cards are _private_ cards.
-
-At the beginning of the game, all of the cards are private cards.  As you play, some of the cards will become public cards.  Once a card has become a public card, it will remain a public card for the rest of the game. -->
