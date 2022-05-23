@@ -30,8 +30,8 @@ If the game does not end, you will redistribute the cards that were played durin
 
 ### Hands
 Throughout the game, you will both manage two hands of cards:
-  - **Closed Hand**: These cards are kept secret from your opponent. You should hold these cards so that you can see the faces of the cards but your opponent cannot.
-  - **Open Hand**: These cards are not secret. You should place these cards face up on the table in front of you.
+  - **Closed Hand**: These cards are kept secret from your opponent. Hold these cards so that you can see the faces of the cards but your opponent cannot.
+  - **Open Hand**: These cards are not secret. Place these cards face up on the table in front of you.
 
 You will start the game with the six cards that were dealt to you during the setup in your closed hand.  You will start the game with no cards in your open hand.
 
@@ -80,7 +80,11 @@ Add the strike card to your one of your hands. If the strike card is face down, 
 
 Place your hand card in the strike row. If your hand card is in your closed hand, place it face down. If your hand card is in your open hand, place it face up.
 
+Note that your hand card and the strike card must be different cards. You cannot make a "trade" by first adding the strike card to one of your hands and then choosing that same card to be your hand card.
+
 ## Tips and Tricks
   - Slide a card from the strike row towards you when you take a strike. This will help you remember how many strikes have been received in the current exchange.
 
   - Once a card has been played during the game, it will remain face up for the remainder of the game.
+
+  - The first three tricks in each exchange are each worth one point, the fourth trick is worth two points, and the fifth trick is worth three points.
