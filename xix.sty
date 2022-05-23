@@ -5,6 +5,10 @@
 \usepackage{calc}
 \usepackage{fontspec}
 
+\usepackage[letterspace=25]{microtype}
+
+\newcommand{\RomanNumeral}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
 \newlength{\cardwidth}
 \newlength{\cardheight}
 \newlength{\bleed}
@@ -47,6 +51,13 @@
 	\setmainfont[Scale=6.0]{Roboto Slab}
 	\node () at (0, 0) {{\Huge #1}};
 	\node () at (-0.9, 1.4) {{\tiny #1}};
+	\node[transform shape, rotate=180] () at (0.9, -1.4) {{\tiny #1}};
+}}
+
+\tikzset{cardfrontpatternroman/.pic={
+	\setmainfont[Scale=6.0]{Stint Ultra Condensed}
+	\node[transform shape] () at (0, 0) {{\Large \textls{\RomanNumeral{#1}}}};
+	\node[transform shape] () at (-0.9, 1.4) {{\tiny #1}};
 	\node[transform shape, rotate=180] () at (0.9, -1.4) {{\tiny #1}};
 }}
 
@@ -97,6 +108,21 @@
 	      cycle;
 	% Pattern for card front
 	\pic () at (0,0) {cardfrontpatternunderline={#1}};
+	% Cutting guides for corners of the cards	
+	\pic () at (0,0) {cutguide={white}};
+\end{scope}
+}}
+
+\tikzset{cardfrontromanprintable/.pic={
+	\begin{scope}
+	\clip (-\cardwidth/2 - \bleed, 0in) --%
+	      (-\cardwidth/2 - \bleed, \cardheight/2 + \bleed) --%
+	      (\cardwidth/2 + \bleed, \cardheight/2 + \bleed) --%
+	      (\cardwidth/2 + \bleed, -\cardheight/2 - \bleed) --%
+	      (-\cardwidth/2 - \bleed, -\cardheight/2 - \bleed) --%
+	      cycle;
+	% Pattern for card front
+	\pic () at (0,0) {cardfrontpatternroman={#1}};
 	% Cutting guides for corners of the cards	
 	\pic () at (0,0) {cutguide={white}};
 \end{scope}
