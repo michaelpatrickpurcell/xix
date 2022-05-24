@@ -4,10 +4,13 @@
 
 \usepackage{calc}
 \usepackage{fontspec}
+\usepackage{ifthen}
 
 \usepackage[letterspace=25]{microtype}
 
-\newcommand{\RomanNumeral}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\newcommand{\RomanNumeral}[1]{%
+\ifthenelse{\equal{#1}{18}}{XIIX}{\ifthenelse{\equal{#1}{8}}{IIX}{\uppercase\expandafter{\romannumeral #1\relax}}}%
+}
 
 \newlength{\cardwidth}
 \newlength{\cardheight}
@@ -49,22 +52,30 @@
 
 \tikzset{cardfrontpattern/.pic={
 	\setmainfont[Scale=6.0]{Roboto Slab}
-	\node (c) at (0, 0) {{\Huge #1}};
+	\node (c) at (0, 0) {{\LARGE #1}};
 	\node (ul) at (-0.9, 1.4) {{\tiny #1}};
 	\node[transform shape, rotate=180] (lr) at (0.9, -1.4) {{\tiny #1}};
+	
+	\draw[line width=0.25ex, rounded corners=3mm] (ul) --++ (1.8, 0) -- (lr);
+	\draw[line width=0.25ex, rounded corners=3mm] (lr) --++ (-1.8, 0) -- (ul);
+
 }}
 
 \tikzset{cardfrontpatternroman/.pic={
-	\setmainfont[Scale=6.0]{Stint Ultra Condensed}
-	\node[transform shape] () at (0, 0) {{\Large \textls{\RomanNumeral{#1}}}};
-	\node[transform shape] () at (-0.9, 1.4) {{\tiny #1}};
-	\node[transform shape, rotate=180] () at (0.9, -1.4) {{\tiny #1}};
+	\setmainfont[Scale=6.0]{Roboto Slab}
+	\node[transform shape, rotate=0] () at (0, 0) {{\setmainfont[Scale=6.0]{Stint Ultra Condensed}\Large\textls{\RomanNumeral{#1}}}};
+	\node[transform shape] (ul) at (-0.95, 1.45) {{\tiny #1}};
+	\node[transform shape, rotate=180] (lr) at (0.95, -1.45) {{\tiny #1}};
+	
+	\draw[line width=0.25ex, rounded corners=3mm] (ul) --++ (1.9, 0) -- (lr);
+	\draw[line width=0.25ex, rounded corners=3mm] (lr) --++ (-1.9, 0) -- (ul);
+
 }}
 
 \tikzset{cardfrontpatternunderline/.pic={
 	\setmainfont[Scale=6.0]{Roboto Slab}
 	\pic () at (0,0) {cardfrontpattern={#1}};	
-	\node[fill=black, inner sep = 0pt, minimum width = 0.75em, minimum height = 0.375ex] () at (0, -1.0) {};
+	\node[fill=black, inner sep = 0pt, minimum width = 0.75em, minimum height = 0.375ex] () at (0, -0.75) {};
 }}
 
 \tikzset{cardbackprintable/.pic={
