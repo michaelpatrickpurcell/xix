@@ -1,0 +1,207 @@
+\documentclass[a6paper, parskip=half, DIV=14, 10pt]{scrartcl}
+\usepackage{xix}
+\usepackage{booktabs}
+\usepackage{multicol}
+\setlength\columnsep{3em}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{scrlayer-scrpage} % Manage headers and footers in Koma-Script document classes
+\setlength{\footskip}{1cm}
+
+\usepackage[type={CC}, version={4.0}, modifier={by}]{doclicense} % Add text and icons for creative commons license
+\usepackage{array}
+\usepackage{afterpage}
+
+\usepackage[hidelinks]{hyperref} % Add hyperlinks to the pdf file. This should usually be the last package loaded before \begin{document}
+
+\setmainfont{Roboto}
+\makeatletter
+\newcommand{\version}[1]{\newcommand{\@version}{#1}}
+\makeatother
+
+% Set header
+\clearpairofpagestyles
+\makeatletter
+\cfoot*{\normalshape Version \@version}
+\makeatother
+
+% Minimize unwanted hyphenation
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\setkomafont{section}{\setmainfont{Roboto Slab}\Large\bfseries}
+\setkomafont{subsection}{\setmainfont{Roboto Slab}\large\bfseries}
+\setkomafont{subsubsection}{\setmainfont{Roboto Slab}\normalsize\bfseries}
+\setkomafont{descriptionlabel}{\setmainfont{Roboto}\normalsize\bfseries}
+
+\RedeclareSectionCommand[
+  runin=false,
+  afterindent=false,
+  beforeskip=0pt,%0.25\baselineskip,
+  afterskip=0ex,%,0.125\baselineskip,
+]{section}
+
+\RedeclareSectionCommand[
+  runin=false,
+  afterindent=false,
+  beforeskip=0pt,%0.25\baselineskip,
+  afterskip=0ex,%,0.125\baselineskip,
+]{subsection}
+
+\RedeclareSectionCommand[
+  runin=false,
+  afterindent=false,
+  beforeskip=0pt,%0.25\baselineskip,
+  afterskip=0ex,%,0.125\baselineskip,
+]{subsubsection}
+
+\newcommand{\textRN}[1]{{\setmainfont{Roboto Slab} \RomanNumeral{#1}}}
+
+\newcommand{\card}[1]{{\setmainfont{Roboto Slab} #1}}
+
+\version{0.1}
+\begin{document}
+{%
+%\pagecolor{yellow}\afterpage{\nopagecolor}
+\setmainfont[Scale=5.0]{Roboto Slab}
+\Huge
+\phantom{a}
+\vfill{}
+\begin{center}
+XIX
+\vfill
+\phantom{a}
+%\setmainfont[Scale=1.0]{Roboto}
+%\normalsize Designed by
+%\setmainfont[Scale=2.0]{Parisienne}
+%\Large
+%Michael Purcell
+\end{center}
+}%
+\newpage
+%\setcounter{page}{1}
+%\clearpairofpagestyles
+%\makeatletter
+%\cfoot*{\normalshape\arabic{page}}
+%\makeatother
+\setmainfont{Roboto}%
+\raggedright%
+\section*{Overview}
+\textRN{19} is an eighteen-card strategy game for two players. It can be played in about thirty minutes and is intended for players who are at least eight years old.
+
+\section*{Components}
+\begin{description}[leftmargin=0pt, labelsep=\widthof{\ }]
+	\item[Numbered Cards (18) \textendash] One card for each whole number between one and eighteen. Each card is labelled with both the Roman and Arabic numerals that correspond to its face value.
+\end{description}
+
+\section*{Setup}
+\begin{enumerate}[leftmargin=*]
+	\item Shuffle all of the cards together. 
+	\item Deal six cards face down to each player. You may look at your cards.
+	\item Place five cards face down in a single row in the middle of the table. This row of cards is called the strike row.
+	\item Discard the last card. You will not use this card during the game.
+\end{enumerate}
+
+\newpage
+
+\section*{Playing the Game}
+A game of \textRN{19} consists of a series of exchanges.
+
+Each exchange consists of a series of tricks.
+
+You can win an exchange by taking three tricks or by forcing your opponent to abandon the exchange. At the end of each exchange, points will be awarded to whoever won the exchange.
+
+After each exchange, you will check to see if the game ends. The game ends if exactly nineteen total points have been awarded or if either player has earned nineteen or more points.
+
+If the game ends because exactly nineteen total points have been awarded, you win if you have fewer points than your opponent. If the game ends because either player has earned nineteen or more points, you win if you have more points than your opponent.
+
+If the game does not end, you will redistribute the cards that were played during the previous exchange via a draft. Then, you will play another exchange.
+
+\newpage
+
+\subsection*{Hands}
+Throughout the game, you will both manage two hands of cards:
+\begin{description}[leftmargin=0pt, labelsep=\widthof{\ }]
+	\item[Closed Hand \textendash] These cards are kept secret from your opponent. Hold these cards so that you can see the faces of the cards but your opponent cannot.
+	\item[Open Hand \textendash] These cards are not secret. Place these cards face up on the table in front of you.
+\end{description}
+You will start the game with the six cards that were dealt to you during the setup in your closed hand and no cards in your open hand.
+
+\newpage
+
+\subsection*{Tricks}
+You will both play one card in each trick. You play a card by placing it face up in the middle of the table. When you play a card, you may play any card from either your closed hand or your open hand.
+
+You should randomly determine which player will lead the first trick (i.e. play the first card) of the game. Thereafter, whoever took the previous trick will lead the next trick.
+
+If the face values of the two cards played in a trick add up to nineteen, then whoever played the card with the lower face value takes the trick. Otherwise, whoever played the card with the higher face value takes the trick.
+
+%\subsubsection*{Example}
+%If you lead a trick by playing the \card{17} card, then your opponent can take the trick by playing either the \card{2} card or the \card{18} card.
+%
+%If you lead a trick by playing the \card{1} card, then your opponent can take take the trick by playing any card except the \card{18} card.
+
+\newpage
+
+\subsection*{Strikes}
+If your opponent takes a trick then you receive a strike. Slide a card from the strike row towards you when you take a strike. This will help you track how many strikes have been received in the current exchange.
+
+
+After you receive a strike you must either:
+\begin{description}[leftmargin=0pt, labelsep=\widthof{\ }]
+	\item[Abandon the Exchange \textendash] You lose the current exchange. Points will be awarded to your opponent.
+	\item[Raise the Stakes \textendash] Keep playing the current exchange. Increase the number of points that will be awarded to whoever wins the current exchange.
+\end{description}
+If you receive your third strike in an exchange, you must abandon the exchange.
+
+\newpage
+
+\subsection*{Scoring}
+When you win an exchange, you will be awarded a number of points equal to the current stakes. The following table describes how the stakes change as a function of the total number of strikes that have been received (by both players) in an exchange.
+
+{
+\setmainfont{Roboto Slab}
+\begin{table}[h]
+\centering
+\begin{tabular}{cc} \toprule
+\textbf{Strikes} & \textbf{Stakes} \\ \midrule
+1 & 1\\
+2 & 2\\
+3 & 3\\
+4 & 5\\
+5 & 8 \\ \bottomrule
+\end{tabular}
+\end{table}
+}
+
+Notice that the first three tricks in each exchange are worth one point, the fourth trick is worth two points, and the fifth trick is worth three points.
+
+%\subsubsection*{Example}
+%Suppose you have taken one strike and your opponent has taken two strikes in the current exchange.  If you take another strike, you must decide whether to abandon the exchange or raise the stakes.
+%
+%If you abandon the the exchange, then a total of four strikes will have been received during this exchange. So, five points will be awarded to your opponent.
+
+\newpage
+
+\subsection*{Redistributing Cards}
+After each exchange, you will redistribute the cards that were played during that exchange via a draft. You will take turns choosing cards, one at a time, until all of the cards have been chosen. Whoever lost the previous exchange will choose first. When you choose a card, add it to your open hand.
+
+After all of the cards have been chosen, if you lost the previous exchange then you must trade a card from one of your hands (your hand card) for a card in the strike row (the strike card).
+
+Add the strike card to one of your hands. If the strike card is face down, add it to your closed hand. Otherwise, add it to your open hand.
+
+Place your hand card in the strike row. If your hand card is in your closed hand, place it face down. If your hand card is in your open hand, place it face up.
+
+
+\vfill
+\hrulefill
+
+\textbf{Game Design}: Michael Purcell\\
+\textbf{Contact}: \href{mailto:xix.game@gmail.com}{xix.game@gmail.com}\\
+\begin{tabular}{@{}m{\columnwidth-\widthof{\Huge{\doclicenseIcon}}-0.5cm}@{\hspace{0.05cm}}m{\widthof{\Huge{\doclicenseIcon}}}@{}}
+{\textbf{License}: This work is licensed\newline under a ``CC BY 4.0'' license.} & \Huge{\doclicenseIcon}\\
+\end{tabular}
+
+\end{document}
