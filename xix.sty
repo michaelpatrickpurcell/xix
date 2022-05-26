@@ -62,7 +62,12 @@
 \tikzset{cardfrontpatternunderline/.pic={
 	\setmainfont[Scale=6.0]{Roboto Slab}
 	\pic () at (0,0) {cardfrontpattern={#1}};	
-	\node[fill=black, inner sep = 0pt, minimum width = 0.75em, minimum height = 0.30ex] () at (0, -0.75) {};
+	\LARGE
+	\node[fill=black, inner sep = 0pt, minimum width = 0.4em, minimum height = 0.2ex] () at (0, -0.75) {};
+	\tiny
+	\node[fill=black, inner sep = 0pt, minimum width = 0.4em, minimum height = 0.2ex] () at (-0.90, 1.4in-1ex) {};
+	\node[fill=black, inner sep = 0pt, minimum width = 0.4em, minimum height = 0.2ex, rotate=180] () at (0.90, -1.4in+1ex) {};
+
 }}
 
 \tikzset{cardbackprintable/.pic={
